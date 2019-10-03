@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+}
+
+.footer * {
+    border: 1px dotted blue;
+}
+
+.facts {
+    display: flex;
+}
+
+.fact .number {
+    font-size: 2.4rem;
+}

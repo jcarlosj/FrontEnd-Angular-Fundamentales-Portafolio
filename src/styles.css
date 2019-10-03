@@ -84,8 +84,27 @@ table {
 
 .container {
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .clear {
     clear: both;
+}
+
+.title,
+.about-list,
+.about-me,
+.about-me-description {
+    border: 2px dotted red;
+    box-sizing: border-box;
+
+}
+
+.title,
+.about-me,
+.about-list {
+    text-align: center;
+}
+.about-me-image {
+    margin: 0 auto;
 }
