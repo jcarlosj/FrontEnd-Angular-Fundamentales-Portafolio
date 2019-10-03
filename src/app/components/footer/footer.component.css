@@ -8,6 +8,7 @@
 
 .facts {
     display: flex;
+    justify-content: space-around;
 }
 
 .fact .number {

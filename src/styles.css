@@ -76,6 +76,12 @@ table {
 }
 
 .header,
+.footer {
+    background: #222;
+    color: white;
+}
+
+.header,
 .main-content,
 .footer {
     border: 1px dotted blue;

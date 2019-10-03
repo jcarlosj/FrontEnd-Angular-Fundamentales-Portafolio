@@ -1,8 +1,8 @@
 <div class="about-me">
     <div class="about-me-profile">
-        <img class="about-me-image" src="https://avatars3.githubusercontent.com/u/12736518" alt="Juan Carlos Jiménez Gutiérrez">
-        <h2>Juan Carlos Jiménez Gutiérrez</h2>
-        <p>Analista y Desarrollador de Sistemas de Información FrontEnd/BackEnd Developer</p>
+        <img class="about-me-image" [src]="data.images[0]" [alt]="data.name">
+        <h2>{{ data .name }}</h2>
+        <p>{{ data .profession }}</p>
     </div>
     <div class="about-me-description">
         <h1 class="title">About Me</h1>
