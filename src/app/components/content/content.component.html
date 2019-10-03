@@ -15,4 +15,12 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, modi? Quasi nostrum ratione dicta odio beatae ipsa. In, ea non architecto aperiam tempore praesentium dolores ipsam! Harum quam quia aliquid!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem recusandae tenetur blanditiis nobis eius asperiores deleniti quidem nulla. Minus asperiores est, in voluptate vero sunt dignissimos laudantium? Aut, natus!</p>
     </div>
+    <div id="chat">
+        <div id="box">
+            <span>{{ chat .data }}</span>
+        </div>
+        <div id="send">
+            <textarea [(ngModel)]="chat.data"></textarea>
+        </div>
+    </div>
 </div>

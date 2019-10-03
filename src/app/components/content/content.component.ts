@@ -11,4 +11,7 @@ export class ContentComponent {
 	  profession: 'Analista y Desarrollador de Sistemas de Información FrontEnd/BackEnd Developer',
 	  images: [ '../assets/images/me.jpg' ],
   }
+  chat = {
+	data: ''
+  }
 }
