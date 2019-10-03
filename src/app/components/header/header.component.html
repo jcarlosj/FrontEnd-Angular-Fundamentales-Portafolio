@@ -9,5 +9,10 @@
         <li class="item button"><a href="#">Log In</a></li>
         <li class="item button secondary"><a href="#">Sign Up</a></li>
         <li class="toggle"><a href="#">M</a></li>
-        </ul>
+    </ul>
+    <div id="login">
+        <div id="session">
+            <input type="text" (keyup.enter)="dataUser(name.value)" #name />
+        </div>
+    </div>
   </nav>

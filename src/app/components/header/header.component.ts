@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
-
+    dataUser( user ) {
+        console .log( user );
+    }
 }
