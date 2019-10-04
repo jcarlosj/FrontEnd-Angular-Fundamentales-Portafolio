@@ -8,11 +8,13 @@
         <li class="item"><a href="#">Contact</a></li>
         <li class="item button"><a href="#">Log In</a></li>
         <li class="item button secondary"><a href="#">Sign Up</a></li>
+        <li class="item button secondary">
+            <input type="text" [value]="name.value" (keyup.enter)="dataUser(name.value)" #name />
+            <p>{{ submitMessage }}</p>
+            <input type="text" (change)="true" #groupRef>
+            <p>{{groupRef.value}}</p>
+        </li>
         <li class="toggle"><a href="#">M</a></li>
+        
     </ul>
-    <div id="login">
-        <div id="session">
-            <input type="text" (keyup.enter)="dataUser(name.value)" #name />
-        </div>
-    </div>
   </nav>

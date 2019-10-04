@@ -36,6 +36,9 @@ a:hover {
 .button.secondary {
     border-bottom: 1px #444 solid;
 }
+input {
+    color: black;
+}
 /* Mobile menu */
 .menu {
     display: flex;

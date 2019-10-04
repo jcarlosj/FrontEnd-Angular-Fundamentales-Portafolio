@@ -7,7 +7,12 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
+
+    submitMessage = '';
+
     dataUser( user ) {
         console .log( user );
+        this .submitMessage = user;
     }
+
 }
