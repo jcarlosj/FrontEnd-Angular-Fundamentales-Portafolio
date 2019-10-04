@@ -11,6 +11,8 @@ import { DirectivaNgIfComponent } from  './components/directiva-ngif.component';
 import { DirectivaNgForComponent } from './components/directiva-ngfor.component';
 import { DirectivaNgSwitchComponent } from './components/directiva-ngswitch.component';
 
+import { DataService } from './services/data/data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,9 @@ import { DirectivaNgSwitchComponent } from './components/directiva-ngswitch.comp
     BrowserModule, 
     FormsModule,
   ],
-  providers: [],
+  providers: [
+    DataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -8,6 +8,13 @@
 	<div class="container">
 		<app-directiva-ngif></app-directiva-ngif>
 		<app-content></app-content>
+
+		<h2>Los Juiciosos</h2>
+		<ul>
+			<li *ngFor="let alumno of allAlumnos">
+				{{ alumno .nombres }} {{ alumno .apellidos }} 
+			</li>
+		</ul>
 	</div>
 </main>
 
