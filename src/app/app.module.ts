@@ -7,11 +7,17 @@ import { HeaderComponent } from './components/header/header.component';
 import { ContentComponent } from  './components/content/content.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+import { HomeComponent } from './components/pages/home/home.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { PageNotFoundComponent } from './components/pages/page-not-found/page-not-found.component';
+
 import { DirectivaNgIfComponent } from  './components/directiva-ngif.component';
 import { DirectivaNgForComponent } from './components/directiva-ngfor.component';
 import { DirectivaNgSwitchComponent } from './components/directiva-ngswitch.component';
 
 import { DataService } from './services/data/data.service';
+import { appRoutingModule } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -21,11 +27,16 @@ import { DataService } from './services/data/data.service';
     FooterComponent,
     DirectivaNgIfComponent,
     DirectivaNgForComponent,
-    DirectivaNgSwitchComponent
+    DirectivaNgSwitchComponent,
+    HomeComponent,
+    ContactComponent,
+    AboutComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule, 
     FormsModule,
+    appRoutingModule
   ],
   providers: [
     DataService
