@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { ContentComponent } from  './components/content/content.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/layout/header/header.component';
+import { ContentComponent } from  './components/layout/content/content.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
 
 import { HomeComponent } from './components/pages/home/home.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
